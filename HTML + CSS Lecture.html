@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="utf-8">
+    <title>HTML & CSS Lecture</title>
+    <link rel="stylesheet" href="testStyleSheet.css">
+</head>
+
+  <body>
+    <nav>
+        <ul>
+            <li><a id="nav_active" href="HTML + CSS Lecture.html">HTML & CSS Lecture</a></li>
+            <li><a href="HTML + CSS Tutorial.html">HTML & CSS Tutorial</a></li>
+            <li><a href="WebSocket JS Lecture.html">JS WebSockets</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <h1>HTML/CSS Notes: Lecture</h1>
+    
+    <h2>Basic Tags</h2>
+
+    <h3>script tag</h3> 
+    <p>The script tag is used to embed JavaScript code into your website</p>
+
+    <h3>noscript tag</h3> 
+    <p>The noscript tag is used to define a section of HTML that will be inserted if a script is not supported or disabled. 
+    <br/>For example: to display an error.</p>
+
+    <h3>meta tag</h3> 
+    <p>Contains other metadata. Can also use to refresh the page (but avoid doing this). 
+    <br/>For example: keywords, author, etc.</p>
+
+    <h2>Headings</h2> 
+    <p>Six different headings: h1 to h6.</p>
+
+    <h2>Lists</h2> 
+    <p>Two different types:
+        <ol>
+            <li>Ordered: ol (what this is)</li>
+            <li>Unordered: ul (basically point form)</li>
+        </ol>
+        Can use CSS to change the bullet type (circle, disc, square, etc.)
+    </p>
+
+    <h2>blockquote and pre</h2> 
+    <p>
+        <ul style ="list-style-type: circle">
+            <li><b>blockquote: </b> text looks pretty lame</li>
+            <li><b>pre: </b> basically a paragraph where white space is acknowledged</li>
+        </ul>
+    </p>
+
+    <h2>"a" tag</h2> 
+    <p>The Anchor (a) allows you to create a hyperlink. 
+    <br/> Like so: <a href="mailto:askariya@ucalgary.ca"/> Send Email</a></p> 
+
+    <h2>Image</h2> 
+    <p>Can display an image like so: </p>
+    <a href="https://www.w3schools.com/html/html_images.asp">
+      <img src="https://vignette.wikia.nocookie.net/mrmen/images/5/52/Small.gif/revision/latest?cb=20100731114437" alt="Mountain View">
+    </a>
+    <p>Can create a link from an image by surrounding with "a href" (done above).
+        Can use <b>"alt"</b> to specify the text that's displayed if the image link breaks.
+    </p>
+
+    <h2>Video</h2> 
+    <p>Can embed a video like so: </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mephJf3-zYE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+    <h2>Tables</h2> 
+    <p>Can stylize with CSS: table { font: etc.}</p>
+
+    <h2>div</h2>
+    <p>
+        <ul>
+            <li><b>Div:</b> div is basically just used for styling with CSS sheets</li>
+            <li><b>Span:</b> span is used to specify ID or Class when styling</li>
+        </ul>
+    </p> 
+
+    <h2>Classes and IDs</h2> 
+    <p>
+        <ul>
+            <li><b>Classes:</b> Used to group similar components that you want to share JS or CSS.<br/>
+                An element can belong to multiple classes.</li>
+            <li><b>IDs:</b> Similar to Classes but IDs are unique and used to reference just 1 specific element</li>
+        </ul>
+    </p>
+
+    <h2>Relative Measurements</h2> 
+    <h3>em and rem</h3>
+    <p>
+        Use "em" instead of px.<br/>
+        em = size relative to font of the element.
+        rem = size relative to the font of the root element (not commonly used)
+    </p>
+    <h3>Percent (%)</h3>
+    <p>
+        Can specify width and height of elements as percentages. <br/>
+        For example: width: 50% would make the element half the size of the page even when the page is resized.
+    </p>
+<!--     
+    <ol>
+        <li><i>List Item 1</i></li>
+        <li><b>List Item 2</b></li>
+        <li>List Item 3</li>
+    </ol> -->
+  </body>
+</html>

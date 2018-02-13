@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="utf-8">
+    <title>WebSocket JS Lecture</title>
+    <link rel="stylesheet" href="testStyleSheet.css">
+</head>
+
+
+  <body>
+    <nav>
+        <ul>
+            <li><a href="HTML + CSS Lecture.html">HTML & CSS Lecture</a></li>
+            <li><a href="HTML + CSS Tutorial.html">HTML & CSS Tutorial</a></li>
+            <li><a id="nav_active" href="WebSocket JS Lecture.html">JS WebSockets</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <h1>JS WebSocket Notes: Lecture</h1>
+    
+    <h2>Socket.IO</h2>
+
+    <h3>Including Library</h3> 
+    <p>If you are using Node.js...</p>
+    <script src="/socket.io/socket.io.js">
+    </script>   <!-- ← if you are using node.js -->
+    <p>Otherwise...</p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js">
+    </script>
+
+    <h3>emit</h3> 
+    <p>io.emit will broadcast a message from server to all connected sockets.</p>
+
+    <h3>Namespace</h3>
+    <p>Each socket has a single namespace</p>
+    <h3>Channel/Room</h3>
+    <ul>
+        <li>namespaces can have rooms </li>
+        <li>by default sockets belong to a single unique channel</li>
+        <li>sockets can belong to more than one channel</li>
+    </ul>
+
+    <h2>Assignment 3</h2>
+    <h3>Notes</h3>
+    <ul>
+        <li>Link will allow you to create a basic chat application: 
+            https://socket.io/get-started/chat/</li>
+        <li>note that window.scrollTo might be useful (used in the example)</li>
+        <li>Don't have to use Websockets, but that's  dumb idea.</li>
+        <li>Can use any external libraries we want for the assignment.</li>
+        <li>Use this to make site beautiful: 
+            https://developers.google.com/web/fundamentals/design-and-ux/responsive/</li>
+        <li>Chatlog should have a vertical scroll bar and text should be aligned at bottom <br>- 
+            <b>this shit is hard, like, really hard</b></li>
+        <li>Unsuccessful nickname changes don't need to display error messages.</li>
+    </ul>
+
+  </body>
+</html>

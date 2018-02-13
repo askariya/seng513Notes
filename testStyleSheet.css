@@ -1,0 +1,74 @@
+/* NOTE: Pick a colour scheme using: https://coolors.co/a30b37-bd6b73-bbb6df-c6c8ee-fcfcff */
+/* Use "em" instead of px. em = size relative to font of the element. */
+/* % - specify width and heights as percent, ex width 50% */
+
+
+body{
+    background-color: rgb(48, 48, 48);
+    color: rgb(230, 230, 230);
+    text-shadow: em;
+}
+
+h2{
+    color: rgb(235, 64, 64);
+    text-decoration: underline;
+}
+h2:hover{
+    color: darkred;
+}
+
+
+img{
+    border: 5px solid rgb(245, 169, 6);
+    border-radius: 10px;
+}
+
+p{
+    text-align: justify;
+    width: 700px;
+}
+
+/*Button CSS*/
+.button{
+    background-color: red;
+    width: 200px;
+    border: 1px solid darkred;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.button:hover{
+    color:white;
+}
+
+
+nav ul{
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+    overflow: hidden;
+    background-color: #292F36;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 1em 2em;
+    text-decoration: none;
+}
+
+#nav_active{
+    background-color:#4ECDC4;
+}
+
+nav li a:hover{
+    /* Change the link color to red on hover */
+    background-color: #404e66;
+}
